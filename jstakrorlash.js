@@ -80,11 +80,11 @@
 // }
 // let res = nameFun(15,30);
 // console.log(res);
-function math(a,b) {
-  function icr(a,b) {
-    return a+b;
-  }
-  function dec(a,b) {
-    return a-b;
-  }
-}
+// function math(a,b) {
+//   function icr(a,b) {
+//     return a+b;
+//   }
+//   function dec(a,b) {
+//     return a-b;
+//   }
+// }

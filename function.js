@@ -51,24 +51,24 @@
 //   }
 // }
 
-let n = Number(prompt("son kiriting"));
-function sumDividers (n) {
-  let s = 0;
-  for (let i = 0; i<=n; i++) {
-    // s += (n%i==0) ? i : 0;
-    if (n%i==0) {
-      s += i;
-    }
-  }
-  return s;
-}
+// let n = Number(prompt("son kiriting"));
+// function sumDividers (n) {
+//   let s = 0;
+//   for (let i = 0; i<=n; i++) {
+//     // s += (n%i==0) ? i : 0;
+//     if (n%i==0) {
+//       s += i;
+//     }
+//   }
+//   return s;
+// }
 
-for (let i = 1; i<n-1;i++) {
-  for (let j = 2*i; j <= n; j++) {
-    if(sumDividers(i) == j)
-    console.log(i + " " + j);
-  }
-}
+// for (let i = 1; i<n-1;i++) {
+//   for (let j = 2*i; j <= n; j++) {
+//     if(sumDividers(i) == j)
+//     console.log(i + " " + j);
+//   }
+// }
 // let one = Number(prompt("son kiriting"));
 // let two = Number(prompt("son kiriting"));
 // function getmax(a, b) {
