@@ -30,3 +30,8 @@
 // let b = a;
 // a[1] = 'SSSS';
 // console.log(b);
+
+
+let newArray = [15,65,57,34,55,44,75,888,87,66];//listda faqat 1 xil turdagi qiymat berilishi shart
+let a = newArray.pop();//o'chiriladigan qiymatni o'zida saqlab qoladi
+console.log(a);
