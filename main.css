@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  min-height: 100vh;
+}
+
+.container {
+  width: 500px;
+  height: 530px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.397);
+  overflow: hidden;
+}
+
+.img-contianer {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  transform: translate(0px);
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  border: none;
+  background-color: crimson;
+  color: #fff;
+  cursor: pointer;
+  padding: 0.5rem;
+  width: 49%;
+}
+
+button:nth-child(2) {
+  background-color: blue;
+}
+
+img {
+  width: 500px;
+  height: 500px;
+}
